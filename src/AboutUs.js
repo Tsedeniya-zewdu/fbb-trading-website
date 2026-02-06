@@ -7,10 +7,10 @@ export default function AboutUs() {
   sx={{
     display: "flex",
     alignItems: "center",
-    // width: "100%",
+    justifyContent:'space-between',
     px: 4,       
     py: 2,
-    gap: 5,
+    gap: 2
     
   }}
 >
@@ -20,7 +20,7 @@ export default function AboutUs() {
         component="img"
         src="image/person.png"
         sx={{
-          width: "35%",
+          width: "40%",
           height: "auto",
           objectFit: "contain",
           display: "block",   
@@ -38,7 +38,8 @@ export default function AboutUs() {
       >
         <SectionTitle text="About Us" />
 
-        <Typography variant="h6">
+        <Typography variant="h6" sx={{ fontFamily: "'Merriweather', serif",
+            fontSize: { xs: "1.1rem", md: "1.15rem" },}}>
             <br />
           We are a proud Ethiopian printing and trading company, bringing your
           ideas to life with high-quality, reliable, and creative solutions.
