@@ -39,10 +39,13 @@ export default function NavBar() {
     position: 'relative',
     cursor: 'pointer',
 p:2,
+        transition: 'transform 200ms ease, box-shadow 200ms ease, background-color 150ms ease, color 150ms ease',
     '&:hover': {
-      bgcolor:'#005B9B',
+      bgcolor:'#E87A06',
       color:'#FFFFFF',
-     
+     borderRadius: 1,
+          transform: 'translateY(-4px)',
+          boxShadow: '0 8px 20px rgba(0,0,0,0.18)',
      
     },
   }}

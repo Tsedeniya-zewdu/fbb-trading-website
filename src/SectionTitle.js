@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material'
 export default function SectionTitle({
   text,
   variant = 'h4',
-  lineColor = '#64B7EB',
+  lineColor = '#E87A06',
   lineHeight = 32,
   lineWidth = 6,
 }) {
